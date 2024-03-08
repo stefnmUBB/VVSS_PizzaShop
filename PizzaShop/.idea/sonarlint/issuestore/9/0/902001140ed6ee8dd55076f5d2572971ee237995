@@ -1,15 +1,0 @@
-
-g	java:S112:"FDefine and throw a dedicated exception instead of using a generic one.(â²Ñ±þÿÿÿÿ8º§žþá1
-x
-java:S1192"[Define a constant instead of duplicating this literal "--------------------------" 6 times.(ú•€Ë8À§žþá1
-G	java:S106"+Replace this use of System.out by a logger.(ú•€Ë8Æ¨žþá1
-L	java:S106"+Replace this use of System.out by a logger.(ç”ŠÎûÿÿÿÿ8È¨žþá1
-G	java:S106"+Replace this use of System.out by a logger.(Òúº‘8Ê¨žþá1
-G	java:S106"+Replace this use of System.out by a logger.(ú•€Ë8Ì¨žþá1
-G	java:S106"+Replace this use of System.out by a logger.(ú•€Ë8Î¨žþá1
-G	java:S106"+Replace this use of System.out by a logger.(ÏúËá8Ò¨žþá1
-G	java:S106"+Replace this use of System.out by a logger.(á•î˜8Ö¨žþá1
-G	java:S106"+Replace this use of System.out by a logger.(ú•€Ë8Ø¨žþá1
-G	java:S106 "+Replace this use of System.out by a logger.(ú•€Ë8Ü¨žþá1
-L	java:S106!"+Replace this use of System.out by a logger.(‡à¼Óøÿÿÿÿ8ç¨žþá1
-G	java:S106""+Replace this use of System.out by a logger.(ú•€Ë8ò¨žþá1
