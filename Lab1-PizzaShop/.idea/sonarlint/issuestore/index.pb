@@ -1,6 +1,4 @@
 
-S
-#src/main/java/org/example/Main.java,0\b\0ba1b9c7a4878802f938e331cc2d8a042087ec6b
 7
 pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
 a
@@ -33,3 +31,9 @@ Q
 !src/main/java/pizzashop/Main.java,d\7\d710b77068e128f035d497fc3878605971f031b5
 Z
 *src/main/java/pizzashop/gui/OrdersGUI.java,a\d\adc62037ddba64615375bfbd8793cbbef77329f4
+N
+src/main/java/module-info.java,1\c\1c89a5491fbfda3fb050196d6a239f20200296e7
+;
+diagram.uml,f\e\fe19b04ff45ca596e938cbbd0a5ae4568a790fad
+P
+ src/resources/fxml/mainFXML.fxml,a\8\a804f23302d3f3e3db6ebe403776a4f231db087a

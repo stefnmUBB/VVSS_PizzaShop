@@ -18,7 +18,7 @@ import pizzashop.service.PizzaService;
 
 import java.util.Optional;
 
-public class Main extends Application {
+public class MainApp extends Application {
 
     @Override
     public void start(Stage primaryStage) throws Exception{
@@ -38,23 +38,24 @@ public class Main extends Application {
         primaryStage.setOnCloseRequest(new EventHandler<WindowEvent>() {
             @Override
             public void handle(WindowEvent event) {
-                Alert exitAlert = new Alert(Alert.AlertType.CONFIRMATION, "Would you like to exit the Main window?", ButtonType.YES, ButtonType.NO);
+                Alert exitAlert = new Alert(Alert.AlertType.CONFIRMATION, "Would you like to exit the pizzashop.Main window?", ButtonType.YES, ButtonType.NO);
                 Optional<ButtonType> result = exitAlert.showAndWait();
-                if (result.get() == ButtonType.YES){ //.isPresent()
+                if (result.get() == ButtonType.YES){
                     //Stage stage = (Stage) this.getScene().getWindow();
                     System.out.println("Incasari cash: "+service.getTotalAmount(PaymentType.Cash));
                     System.out.println("Incasari card: "+service.getTotalAmount(PaymentType.Card));
-                    // inchiderea restaurantului
 
                     primaryStage.close();
                 }
                 // consume event
                 else if (result.get() == ButtonType.NO){
-                    event.consume(); // considera ca evenimentul a fost tratat
+                    event.consume();
                 }
                 else {
                     event.consume();
+
                 }
+
             }
         });
         primaryStage.setScene(new Scene(box));

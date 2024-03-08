@@ -28,9 +28,9 @@ public class MenuRepository {
             }
             br.close();
         } catch (FileNotFoundException e) {
-            e.printStackTrace();
+            e.printStackTrace(); // !!!
         } catch (IOException e) {
-            e.printStackTrace();
+            e.printStackTrace(); // !!!
         }
     }
 
@@ -38,7 +38,7 @@ public class MenuRepository {
         MenuDataModel item=null;
         if (line==null|| line.equals("")) return null;
         StringTokenizer st=new StringTokenizer(line, ","); // probleme la parsare daca input nu e "a,b"
-        String name= st.nextToken();
+        String name= st.nextToken(); // throws NoSuchElementException
         double price = Double.parseDouble(st.nextToken());
         item = new MenuDataModel(name, 0, price); // MenuItem != Order?
         return item;
