@@ -1,4 +1,3 @@
-pizzashop\MainApp.class
 pizzashop\Main.class
 pizzashop\gui\OrdersGUI.class
 pizzashop\service\PaymentOperation.class
@@ -10,8 +9,8 @@ pizzashop\model\MenuDataModel.class
 module-info.class
 pizzashop\controller\MainGUIController.class
 pizzashop\gui\KitchenGUI$1.class
-pizzashop\MainApp$1.class
 pizzashop\controller\KitchenGUIController.class
+pizzashop\Main$1.class
 pizzashop\controller\OrdersGUIController.class
 pizzashop\repository\PaymentRepository.class
 pizzashop\service\PaymentAlert.class
