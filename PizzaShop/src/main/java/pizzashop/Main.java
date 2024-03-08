@@ -17,15 +17,24 @@ import pizzashop.repository.PaymentRepository;
 import pizzashop.service.PizzaService;
 
 import java.util.Optional;
+import java.util.logging.Logger;
 
 public class Main extends Application {
+    MenuRepository repoMenu;
+    PaymentRepository payRepo;
+    PizzaService service = null;
 
     @Override
     public void start(Stage primaryStage) throws Exception{
-
-        MenuRepository repoMenu=new MenuRepository();
-        PaymentRepository payRepo= new PaymentRepository();
-        PizzaService service = new PizzaService(repoMenu, payRepo);
+        try {
+            repoMenu = new MenuRepository();
+            payRepo = new PaymentRepository();
+            service = new PizzaService(repoMenu, payRepo);
+        }
+        catch (Exception e){
+            System.out.println(e);
+            System.exit(-1);
+        }
 
         FXMLLoader loader = new FXMLLoader(getClass().getResource("/fxml/mainFXML.fxml"));
         //VBox box = loader.load();
@@ -42,8 +51,8 @@ public class Main extends Application {
                 Optional<ButtonType> result = exitAlert.showAndWait();
                 if (result.get() == ButtonType.YES){
                     //Stage stage = (Stage) this.getScene().getWindow();
-                    System.out.println("Incasari cash: "+service.getTotalAmount(PaymentType.Cash));
-                    System.out.println("Incasari card: "+service.getTotalAmount(PaymentType.Card));
+                    System.out.println("Incasari cash: "+service.getTotalAmount(PaymentType.CASH));
+                    System.out.println("Incasari card: "+service.getTotalAmount(PaymentType.CARD));
 
                     primaryStage.close();
                 }
@@ -61,9 +70,10 @@ public class Main extends Application {
         primaryStage.setScene(new Scene(box));
         primaryStage.show();
         KitchenGUI kitchenGUI = new KitchenGUI();
-        kitchenGUI.KitchenGUI();
+
     }
 
-    public static void main(String[] args) { launch(args);
+    public static void main(String[] args) {
+        launch(args);
     }
 }

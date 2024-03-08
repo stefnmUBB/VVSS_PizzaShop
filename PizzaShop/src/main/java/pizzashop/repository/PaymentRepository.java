@@ -12,39 +12,38 @@ public class PaymentRepository {
     private static String filename = "data/payments.txt";
     private List<Payment> paymentList;
 
-    public PaymentRepository(){
+    public PaymentRepository() throws IOException {
         this.paymentList = new ArrayList<>();
         readPayments();
     }
 
-    private void readPayments(){
-        //ClassLoader classLoader = PaymentRepository.class.getClassLoader();
+    private void readPayments() throws IOException {
         File file = new File(filename);
-        BufferedReader br = null;
-        try {
-            br = new BufferedReader(new FileReader(file));
+        try(BufferedReader br = new BufferedReader(new FileReader(file))) {
             String line = null;
             while((line=br.readLine())!=null){
                 Payment payment=getPayment(line);
                 paymentList.add(payment);
             }
-            br.close();
-        } catch (FileNotFoundException e) {
-            e.printStackTrace();
         } catch (IOException e) {
-            e.printStackTrace();
+            throw e;
         }
     }
 
     private Payment getPayment(String line){
-        Payment item=null;
-        if (line==null|| line.equals("")) return null;
-        StringTokenizer st=new StringTokenizer(line, ",");
-        int tableNumber= Integer.parseInt(st.nextToken());
-        String type= st.nextToken();
-        double amount = Double.parseDouble(st.nextToken());
-        item = new Payment(tableNumber, PaymentType.valueOf(type), amount);
-        return item;
+        try{
+            Payment item=null;
+            if (line==null|| line.equals("")) return null;
+            StringTokenizer st=new StringTokenizer(line, ",");
+            int tableNumber= Integer.parseInt(st.nextToken());
+            String type= st.nextToken();
+            double amount = Double.parseDouble(st.nextToken());
+            item = new Payment(tableNumber, PaymentType.valueOf(type), amount);
+            return item;
+        }
+        catch (Exception e){
+            throw new IllegalArgumentException(line+" => "+e.getMessage());
+        }
     }
 
     public void add(Payment payment){

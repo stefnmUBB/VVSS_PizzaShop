@@ -3,6 +3,7 @@ package pizzashop.gui;
 import javafx.event.EventHandler;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
+import javafx.scene.control.Alert;
 import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
 import javafx.stage.WindowEvent;
@@ -31,6 +32,10 @@ public class OrdersGUI {
 
         } catch (IOException e) {
             e.printStackTrace();
+        }
+        catch (NumberFormatException e){
+            // in repo cand inputul in menu.txt nu e corect
+            System.out.println(e.getMessage());
         }
 
      Stage stage = new Stage();

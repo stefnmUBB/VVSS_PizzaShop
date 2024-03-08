@@ -12,7 +12,8 @@ import java.io.IOException;
 import java.util.Optional;
 
 public class KitchenGUI {
-    public void KitchenGUI() {
+
+    public KitchenGUI() {
         VBox vBoxKitchen = null;
 
         try {
@@ -29,15 +30,19 @@ public class KitchenGUI {
             public void handle(WindowEvent event) {
                 Alert exitAlert = new Alert(Alert.AlertType.CONFIRMATION, "Would you like to exit Kitchen window?", ButtonType.YES, ButtonType.NO);
                 Optional<ButtonType> result = exitAlert.showAndWait();
-                if (result.get() == ButtonType.YES){
-                    //Stage stage = (Stage) this.getScene().getWindow();
-                    stage.close();
+                if(result.isPresent()) {
+                    if (result.get() == ButtonType.YES) {
+                        //Stage stage = (Stage) this.getScene().getWindow();
+                        stage.close();
+                    }
+                    // consume event
+                    else if (result.get() == ButtonType.NO) {
+                        event.consume();
+                    } else {
+                        event.consume();
+                    }
                 }
-                // consume event
-                else if (result.get() == ButtonType.NO){
-                    event.consume();
-                }
-                else {
+                else{
                     event.consume();
                 }
             }
