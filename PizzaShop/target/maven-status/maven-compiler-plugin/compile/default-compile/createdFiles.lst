@@ -2,13 +2,13 @@ pizzashop\controller\KitchenGUIController.class
 pizzashop\Main.class
 pizzashop\Main$1.class
 pizzashop\gui\OrdersGUI.class
+pizzashop\model\Order.class
 pizzashop\service\PaymentOperation.class
 pizzashop\controller\OrdersGUIController.class
 pizzashop\controller\KitchenGUIController$1.class
 pizzashop\controller\OrdersGUIController$1.class
 pizzashop\gui\OrdersGUI$1.class
 pizzashop\service\PizzaService.class
-pizzashop\model\MenuDataModel.class
 pizzashop\repository\PaymentRepository.class
 pizzashop\service\PaymentAlert.class
 module-info.class

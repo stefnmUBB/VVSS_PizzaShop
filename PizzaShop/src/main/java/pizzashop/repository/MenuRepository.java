@@ -2,8 +2,7 @@ package pizzashop.repository;
 import java.util.logging.Logger;
 
 
-import javafx.scene.control.Alert;
-import pizzashop.model.MenuDataModel;
+import pizzashop.model.Order;
 
 import java.io.*;
 import java.util.ArrayList;
@@ -12,7 +11,7 @@ import java.util.StringTokenizer;
 
 public class MenuRepository {
     private static String filename = "data/menu.txt";
-    private List<MenuDataModel> listMenu;
+    private List<Order> listMenu;
 
     public MenuRepository(){
     }
@@ -24,7 +23,7 @@ public class MenuRepository {
         try(var br = new BufferedReader(new FileReader(file))) {
             String line = null;
             while((line=br.readLine())!=null){
-                MenuDataModel menuItem=getMenuItem(line);
+                Order menuItem=getMenuItem(line);
                 listMenu.add(menuItem);
             }
         } catch (FileNotFoundException e) {
@@ -34,15 +33,15 @@ public class MenuRepository {
         }
     }
     Logger logger = Logger.getLogger(getClass().getName());
-    private MenuDataModel getMenuItem(String line) throws IllegalArgumentException {
+    private Order getMenuItem(String line) throws IllegalArgumentException {
         try {
-            MenuDataModel item = null;
+            Order item = null;
             if (line == null || line.equals("")) return null;
             StringTokenizer st = new StringTokenizer(line, ",");
 
             String name = st.nextToken();
             double price = Double.parseDouble(st.nextToken());
-            item = new MenuDataModel(name, 0, price);
+            item = new Order(name, 0, price);
             return item;
         }
         catch (Exception e){
@@ -50,7 +49,7 @@ public class MenuRepository {
         }
     }
 
-    public List<MenuDataModel> getMenu(){
+    public List<Order> getMenu(){
         readMenu();//create a new menu for each table, on request
         return listMenu;
     }
