@@ -9,10 +9,11 @@ import java.util.List;
 import java.util.StringTokenizer;
 
 public class PaymentRepository {
-    private static String filename = "data/payments.txt";
+    private String filename;
     private List<Payment> paymentList;
 
-    public PaymentRepository() throws IOException {
+    public PaymentRepository(String filename) throws IOException {
+        this.filename = filename;
         this.paymentList = new ArrayList<>();
         readPayments();
     }

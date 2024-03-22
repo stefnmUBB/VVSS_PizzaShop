@@ -10,17 +10,18 @@ import java.util.List;
 import java.util.StringTokenizer;
 
 public class MenuRepository {
-    private static String filename = "data/menu.txt";
+    private String filename;
     private List<Order> listMenu;
 
-    public MenuRepository(){
+    public MenuRepository(String filename){
+        this.filename = filename;
     }
 
     private void readMenu(){
         //ClassLoader classLoader = MenuRepository.class.getClassLoader();
         File file = new File(filename);
         this.listMenu= new ArrayList();
-        try(var br = new BufferedReader(new FileReader(file))) {
+        try(BufferedReader br = new BufferedReader(new FileReader(file))) {
             String line = null;
             while((line=br.readLine())!=null){
                 Order menuItem=getMenuItem(line);
