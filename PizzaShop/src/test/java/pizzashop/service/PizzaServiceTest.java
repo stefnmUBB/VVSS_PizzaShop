@@ -67,9 +67,11 @@ class PizzaServiceTest {
         amount = -1;
         try {
             srv.addPayment(table, type, amount);
-            assert false;
+            Assertions.fail();
+            //assert false;
         } catch (Exception ex) {
-            assert true;
+            Assertions.assertTrue(true);
+            //assert true;
         }
     }
 
