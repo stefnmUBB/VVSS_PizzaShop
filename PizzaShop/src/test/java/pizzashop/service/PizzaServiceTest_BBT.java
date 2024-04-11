@@ -7,12 +7,10 @@ import pizzashop.repository.MenuRepository;
 import pizzashop.repository.PaymentRepository;
 
 import java.io.*;
-import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
 
-import static org.junit.jupiter.api.Assertions.*;
-class PizzaServiceTest {
+class PizzaServiceTest_BBT {
     private int table;
     private PaymentType type;
     private double amount;
@@ -154,9 +152,6 @@ class PizzaServiceTest {
         srv.addPayment(table,type,amount);
         checkAdd(table,type,amount);
     }
-
-
-
     void checkAdd(int table, PaymentType type, double amount) {
         File file = new File(filename);
         String lastLine = null;
