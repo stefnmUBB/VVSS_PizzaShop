@@ -20,27 +20,6 @@ public class PizzaServiceTest_WBT {
 
     @BeforeEach
     void setUp() {
-        List<Payment> payments = List.of(new Payment(1,PaymentType.CARD,12),new Payment(2,PaymentType.CASH,22.4));
-        File file = new File(filename);
-        BufferedWriter bw = null;
-        try {
-            bw = new BufferedWriter(new FileWriter(file));
-            for (Payment p:payments) {
-                System.out.println(p.toString());
-                bw.write(p.toString());
-                bw.newLine();
-            }
-            bw.close();
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-        try {
-            MenuRepository repoMenu = new MenuRepository("data/menu.txt");
-            PaymentRepository payRepo = new PaymentRepository("test_payments.txt");
-            srv = new PizzaService(repoMenu, payRepo);
-        } catch (Exception ex) {
-            ex.printStackTrace();
-        }
     }
 
     @AfterEach
@@ -53,7 +32,15 @@ public class PizzaServiceTest_WBT {
         l = null;
         type = PaymentType.CASH;
         total = 0;
-        Assertions.assertEquals(PizzaService.getTotalAmountStatic(l, type), total);
+        try
+        {
+            var amount = PizzaService.getTotalAmountStatic(l, type);
+        }
+        catch (IllegalArgumentException e){
+            Assertions.assertTrue(true);
+            return;
+        }
+        Assertions.fail();
     }
 
     @Test

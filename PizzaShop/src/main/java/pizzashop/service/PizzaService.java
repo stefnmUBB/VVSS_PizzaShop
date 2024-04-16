@@ -56,7 +56,8 @@ public class PizzaService {
         double total=0.0f;
         // spargem if-ul in doua ca sa facem CC=5
         //if ((l==null) ||(l.size()==0)) return total;
-        if(l==null) return total;
+        if(l==null)
+            throw new IllegalArgumentException();
         //if(type==PaymentType.CARD && l.size()==0) return total;
         if(l.size()==0) return total;
         for (Payment p:l){
