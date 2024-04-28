@@ -1,4 +1,5 @@
 .idea/sonarlint
+.idea/workspace.xml
 target/
 
 # Compiled class file
