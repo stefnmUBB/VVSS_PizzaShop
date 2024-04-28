@@ -1,0 +1,16 @@
+
+>
+java:S1604/"(Make this anonymous inner class a lambda(®ήρη
+a
+java:S36554"LCall "result.isPresent()" or "!result.isEmpty()" before accessing the value.(Όύ¦7
+Y
+java:S1854H">Remove this useless assignment to local variable "kitchenGUI".(τ¨ώÿÿÿÿ
+E	java:S106#"+Replace this use of System.out by a logger.(¨¶ΡΝώÿÿÿÿ
+Q	java:S125("<This block of commented-out lines of code should be removed.(‹έτΰ
+@	java:S1066"+Replace this use of System.out by a logger.(Ά‚ιω
+V	java:S1255"<This block of commented-out lines of code should be removed.(‘ϋÿÿÿÿ
+E	java:S1067"+Replace this use of System.out by a logger.(Πρμκÿÿÿÿÿ
+J
+java:S1481H"/Remove this unused "kitchenGUI" local variable.(τ¨ώÿÿÿÿ
+K
+java:S1128"5Remove this unused import 'java.util.logging.Logger'.(ƒ¥σ
