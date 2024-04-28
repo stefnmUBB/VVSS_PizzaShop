@@ -79,7 +79,7 @@ public class OrdersGUIController {
             orderList= menuData.stream()
                     .filter(x -> x.getQuantity()>0)
                     .map(order -> order.getQuantity() +" "+ order.getMenuItem())
-                    .toList();
+                    .collect(Collectors.toList());
             //observableList = FXCollections.observableList(orderList); <<-- removed!!
             KitchenGUIController.order.add("Table" + tableNumber +" "+ orderList.toString());
             orderStatus.setText("Order placed at: " +  now.get(Calendar.HOUR)+":"+now.get(Calendar.MINUTE));

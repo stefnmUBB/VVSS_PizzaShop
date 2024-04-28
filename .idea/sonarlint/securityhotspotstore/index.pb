@@ -33,3 +33,13 @@ i
 9src/test/java/pizzashop/service/PizzaServiceTest_WBT.java,9\c\9c7fe6970ada6bc2a5b113c631d1ffc9f6cbce04
 i
 9src/test/java/pizzashop/service/PizzaServiceTest_BBT.java,c\0\c0a5f299da1ef8ad95cfd4f233aeeaecf8dd4bc4
+Y
+)src/test/java/mock_tests/PaymentTest.java,7\d\7d51a34e2314a9ce993954f5a0e19fc92af770e6
+c
+3src/test/java/mock_tests/PaymentRepositoryTest.java,8\7\8790928d133a80794b8d2be0a652a92d1dfaca29
+j
+:src/main/java/pizzashop/repository/IPaymentRepository.java,4\5\4541a74534e706b75d25b5a14bfc4801f66a7dbf
+N
+src/main/java/module-info.java,1\c\1c89a5491fbfda3fb050196d6a239f20200296e7
+^
+.src/test/java/mock_tests/PizzaServiceTest.java,a\3\a388af5e2c8010fe0e3d3fd85441ac585c63a847

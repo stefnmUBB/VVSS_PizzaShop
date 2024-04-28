@@ -8,7 +8,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.StringTokenizer;
 
-public class PaymentRepository {
+public class PaymentRepository implements IPaymentRepository {
     private String filename;
     private List<Payment> paymentList;
 

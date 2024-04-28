@@ -1,11 +1,0 @@
-
-O
-java:S2699X"-Add at least one assertion to this test case.(¶÷Ö…şÿÿÿÿ8òÉôé1
-J
-java:S2699f"-Add at least one assertion to this test case.(°¼–’8ôÉôé1
-J
-java:S2699t"-Add at least one assertion to this test case.(ûÓÎí8õÉôé1
-¶
-java:S3577"“Rename class "PizzaServiceTest_BBT" to match the regular expression: '^((Test|IT)[a-zA-Z0-9_]+|[A-Z][a-zA-Z0-9_]*(Test|Tests|TestCase|IT|ITCase))$'(„îõçşÿÿÿÿ8ª§µëì1
-|
-java:S1607”"^Either add an explanation about why this test is skipped or remove the "@Disabled" annotation.(¡¬Ô‰8€Êôé1
