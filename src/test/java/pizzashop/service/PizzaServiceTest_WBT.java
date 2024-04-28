@@ -5,6 +5,7 @@ import pizzashop.model.Payment;
 import pizzashop.model.PaymentType;
 import pizzashop.repository.MenuRepository;
 import pizzashop.repository.PaymentRepository;
+import pizzashop.utils.ListUtils;
 
 import java.io.*;
 import java.util.List;
@@ -34,7 +35,7 @@ public class PizzaServiceTest_WBT {
         total = 0;
         try
         {
-            var amount = PizzaService.getTotalAmountStatic(l, type);
+            double amount = PizzaService.getTotalAmountStatic(l, type);
         }
         catch (IllegalArgumentException e){
             Assertions.assertTrue(true);
@@ -45,7 +46,7 @@ public class PizzaServiceTest_WBT {
 
     @Test
     void getTotalAmount_F02_TC02() {
-        l = List.of();
+        l = ListUtils.of();
         type = PaymentType.CASH;
         total = 0;
         Assertions.assertEquals(PizzaService.getTotalAmountStatic(l, type), total);
@@ -54,7 +55,7 @@ public class PizzaServiceTest_WBT {
     @Test
     void getTotalAmount_F02_TC03() {
         // ??
-        l = List.of();
+        l = ListUtils.of();
         type = PaymentType.CASH;
         total = 0;
         Assertions.assertEquals(PizzaService.getTotalAmountStatic(l, type), total);
@@ -62,7 +63,7 @@ public class PizzaServiceTest_WBT {
 
     @Test
     void getTotalAmount_F02_TC04() {
-        l = List.of(new Payment(1, PaymentType.CASH, 5));
+        l = ListUtils.of(new Payment(1, PaymentType.CASH, 5));
         type = PaymentType.CARD;
         total = 0;
         Assertions.assertEquals(PizzaService.getTotalAmountStatic(l, type), total);
@@ -70,7 +71,7 @@ public class PizzaServiceTest_WBT {
 
     @Test
     void getTotalAmount_F02_TC05() {
-        l = List.of(
+        l = ListUtils.of(
                 new Payment(1, PaymentType.CARD, 2),
                 new Payment(1, PaymentType.CARD, 3));
         type = PaymentType.CARD;

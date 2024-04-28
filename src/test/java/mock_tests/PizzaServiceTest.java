@@ -11,6 +11,7 @@ import pizzashop.model.Payment;
 import pizzashop.model.PaymentType;
 import pizzashop.repository.IPaymentRepository;
 import pizzashop.service.PizzaService;
+import pizzashop.utils.ListUtils;
 
 import java.util.Arrays;
 import java.util.List;
@@ -34,8 +35,9 @@ public class PizzaServiceTest {
     @Test
     public void test_getPayments() {
         Payment p1 = new Payment(5, PaymentType.CARD, 10.5);
-        Mockito.when(paymentRepository.getAll()).thenReturn(List.of(p1));
-        Assertions.assertEquals(List.of(p1), pizzaService.getPayments());
+
+        Mockito.when(paymentRepository.getAll()).thenReturn(ListUtils.of(p1));
+        Assertions.assertEquals(ListUtils.of(p1), pizzaService.getPayments());
         Mockito.verify(paymentRepository, times(1)).getAll();
     }
 

@@ -1,4 +1,4 @@
-module pizzashop {
+/*module pizzashop {
     requires javafx.graphics;
     requires javafx.fxml;
     requires javafx.controls;
@@ -13,4 +13,4 @@ module pizzashop {
     exports pizzashop.controller;
     exports pizzashop.repository;
     exports pizzashop.service;
-}
+}*/

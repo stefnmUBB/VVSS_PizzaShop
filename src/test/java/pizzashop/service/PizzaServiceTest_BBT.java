@@ -5,6 +5,7 @@ import pizzashop.model.Payment;
 import pizzashop.model.PaymentType;
 import pizzashop.repository.MenuRepository;
 import pizzashop.repository.PaymentRepository;
+import pizzashop.utils.ListUtils;
 
 import java.io.*;
 import java.util.List;
@@ -20,7 +21,7 @@ class PizzaServiceTest_BBT {
 
     @BeforeEach
     void setUp() {
-        List<Payment> payments = List.of(new Payment(1,PaymentType.CARD,12),new Payment(2,PaymentType.CASH,22.4));
+        List<Payment> payments = ListUtils.of(new Payment(1,PaymentType.CARD,12),new Payment(2,PaymentType.CASH,22.4));
 
         File file = new File(filename);
         BufferedWriter bw = null;

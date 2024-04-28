@@ -1,3 +1,4 @@
 
+G	java:S106"+Replace this use of System.out by a logger.(ÌØ¯³8ê¼ ò1
 e
-java:S1128"CRemove this unused import 'pizzashop.repository.PaymentRepository'.(Â•Íåüÿÿÿÿ8àëÛ ò1
+java:S1128"CRemove this unused import 'pizzashop.repository.PaymentRepository'.(Â•Íåüÿÿÿÿ8¦™“ ò1

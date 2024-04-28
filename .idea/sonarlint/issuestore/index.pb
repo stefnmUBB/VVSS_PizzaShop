@@ -43,5 +43,9 @@ N
 src/main/java/module-info.java,1\c\1c89a5491fbfda3fb050196d6a239f20200296e7
 ^
 .src/test/java/mock_tests/PizzaServiceTest.java,a\3\a388af5e2c8010fe0e3d3fd85441ac585c63a847
-A
-test_payments.txt,2\8\28c90f951442050a3a845f686f43849631222da9
+9
+	README.md,8\e\8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
+W
+'src/main/java/pizzashop/utils/List.java,e\0\e01880b7f1bdc9d3177060128a202d0f2df325e7
+\
+,src/main/java/pizzashop/utils/ListUtils.java,0\a\0a3d86c7987cc7b3e412e190a05ac3077764a3b9

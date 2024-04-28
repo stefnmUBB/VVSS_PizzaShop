@@ -10,5 +10,8 @@
         <module name="VVSS_PizzaShop" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="VVSS_PizzaShop" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>

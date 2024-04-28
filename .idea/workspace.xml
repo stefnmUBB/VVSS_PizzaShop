@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e5c55f79-8359-4db9-a36e-5a3aaa75e0da" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/pizzashop/utils/ListUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/PizzaShop.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/VVSS_PizzaShop.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/VVSS_PizzaShop.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/8/28c90f951442050a3a845f686f43849631222da9" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/5/3576af2638a0365b93de1019fa5c2daae3616717" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/e/3e5b2ba1de3e25c2703e1861e7561c6da8e2c107" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/7/47bdc6c9cb205db26d090cbf3e15cc256314b822" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/7/47bdc6c9cb205db26d090cbf3e15cc256314b822" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/d/7d51a34e2314a9ce993954f5a0e19fc92af770e6" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/d/7d51a34e2314a9ce993954f5a0e19fc92af770e6" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/5/8520f08e22c256d40d132e4ce1d91ee5494663f3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/6/862d4eb199283e0e9c78f504b07ec47424c924ff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/7/8790928d133a80794b8d2be0a652a92d1dfaca29" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/7/8790928d133a80794b8d2be0a652a92d1dfaca29" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/0/902001140ed6ee8dd55076f5d2572971ee237995" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/5/9593d6c2aae59b75f1c5ffdb8bb3a549a0c0d8d6" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/5/9593d6c2aae59b75f1c5ffdb8bb3a549a0c0d8d6" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/c/9c7fe6970ada6bc2a5b113c631d1ffc9f6cbce04" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/c/9c7fe6970ada6bc2a5b113c631d1ffc9f6cbce04" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/d/9d97f1b3b833c7bf37819367d50d1d04bbeb964b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/3/a388af5e2c8010fe0e3d3fd85441ac585c63a847" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/3/a388af5e2c8010fe0e3d3fd85441ac585c63a847" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/d/adc62037ddba64615375bfbd8793cbbef77329f4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/0/b0e48405f0ebddab4ecea2ba722dcd0546d61cea" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/0/b0e48405f0ebddab4ecea2ba722dcd0546d61cea" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/0/c0a5f299da1ef8ad95cfd4f233aeeaecf8dd4bc4" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/0/c0a5f299da1ef8ad95cfd4f233aeeaecf8dd4bc4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/7/d710b77068e128f035d497fc3878605971f031b5" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/7/d710b77068e128f035d497fc3878605971f031b5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/f/ef6998620bd1015c5e4bddc19da8b0331cb111bf" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/f/ef6998620bd1015c5e4bddc19da8b0331cb111bf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/1/f113d329464de76aa1074faec3e0f9b726224347" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/2/8/28c90f951442050a3a845f686f43849631222da9" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/3/5/3576af2638a0365b93de1019fa5c2daae3616717" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/3/e/3e5b2ba1de3e25c2703e1861e7561c6da8e2c107" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/8/5/8520f08e22c256d40d132e4ce1d91ee5494663f3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/8/6/862d4eb199283e0e9c78f504b07ec47424c924ff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/9/0/902001140ed6ee8dd55076f5d2572971ee237995" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/9/5/9593d6c2aae59b75f1c5ffdb8bb3a549a0c0d8d6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/9/d/9d97f1b3b833c7bf37819367d50d1d04bbeb964b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/a/d/adc62037ddba64615375bfbd8793cbbef77329f4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/f/1/f113d329464de76aa1074faec3e0f9b726224347" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PizzaShop/.idea/dataSources/01e5880c-32c7-45d0-ac9b-0f117d46652e.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PizzaShop/.idea/dataSources/62d7753d-0bf0-4323-b636-f27471ef96ca.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PizzaShop/.idea/dataSources/9fc8722e-5116-4f57-bab1-45ecfd14d98a.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PizzaShop/.idea/dataSources/ac640979-f7f5-4c7f-b510-baaaf8c5aad6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PizzaShop/.idea/dataSources/dbf3852b-f1c7-4603-9a7d-c0f798a8ab29.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PizzaShop/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/mock_tests/PizzaServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/mock_tests/PizzaServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pizzashop/service/PizzaServiceTest_BBT.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pizzashop/service/PizzaServiceTest_BBT.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pizzashop/service/PizzaServiceTest_WBT.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pizzashop/service/PizzaServiceTest_WBT.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Tasks-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/module-info.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pizzashop/Main$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pizzashop/Main$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pizzashop/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pizzashop/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pizzashop/controller/KitchenGUIController$1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pizzashop/controller/KitchenGUIController$1$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pizzashop/controller/KitchenGUIController$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pizzashop/controller/KitchenGUIController$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pizzashop/controller/KitchenGUIController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pizzashop/controller/KitchenGUIController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pizzashop/controller/MainGUIController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pizzashop/controller/MainGUIController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pizzashop/controller/OrdersGUIController$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pizzashop/controller/OrdersGUIController$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pizzashop/controller/OrdersGUIController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pizzashop/controller/OrdersGUIController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pizzashop/gui/KitchenGUI$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pizzashop/gui/KitchenGUI$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pizzashop/gui/KitchenGUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pizzashop/gui/KitchenGUI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pizzashop/gui/OrdersGUI$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pizzashop/gui/OrdersGUI$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pizzashop/gui/OrdersGUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pizzashop/gui/OrdersGUI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pizzashop/model/Order.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pizzashop/model/Order.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pizzashop/model/Payment.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pizzashop/model/Payment.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pizzashop/model/PaymentType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pizzashop/model/PaymentType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pizzashop/repository/IPaymentRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pizzashop/repository/IPaymentRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pizzashop/repository/MenuRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pizzashop/repository/MenuRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pizzashop/repository/PaymentRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pizzashop/repository/PaymentRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pizzashop/service/PaymentAlert.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pizzashop/service/PaymentAlert.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pizzashop/service/PaymentOperation.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pizzashop/service/PaymentOperation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pizzashop/service/PizzaService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pizzashop/service/PizzaService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/mock_tests/PaymentRepositoryTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/mock_tests/PaymentRepositoryTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/mock_tests/PaymentTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/mock_tests/PaymentTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/mock_tests/PizzaServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/mock_tests/PizzaServiceTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pizzashop/service/PizzaServiceTest_BBT.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pizzashop/service/PizzaServiceTest_BBT.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pizzashop/service/PizzaServiceTest_WBT.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pizzashop/service/PizzaServiceTest_WBT.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2fjcyiGjN1FVXZsOJ3nXj2VRLg7" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/anu3/sem2/VVSS/VVSS_PizzaShop",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.0",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager" selected="JUnit.PaymentRepositoryTest">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pizzashop.Main" />
+      <module name="VVSS_PizzaShop" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pizzashop.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PaymentRepositoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="VVSS_PizzaShop" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mock_tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="mock_tests" />
+      <option name="MAIN_CLASS_NAME" value="mock_tests.PaymentRepositoryTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PaymentTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="VVSS_PizzaShop" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mock_tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="mock_tests" />
+      <option name="MAIN_CLASS_NAME" value="mock_tests.PaymentTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PizzaServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="VVSS_PizzaShop" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mock_tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="mock_tests" />
+      <option name="MAIN_CLASS_NAME" value="mock_tests.PizzaServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PizzaServiceTest_WBT" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="VVSS_PizzaShop" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pizzashop.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pizzashop.service" />
+      <option name="MAIN_CLASS_NAME" value="pizzashop.service.PizzaServiceTest_WBT" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.PaymentRepositoryTest" />
+        <item itemvalue="JUnit.PaymentTest" />
+        <item itemvalue="JUnit.PizzaServiceTest" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.PizzaServiceTest_WBT" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e5c55f79-8359-4db9-a36e-5a3aaa75e0da" name="Changes" comment="" />
+      <created>1714318183882</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1714318183882</updated>
+      <workItem from="1714318187433" duration="52000" />
+      <workItem from="1714319074528" duration="743000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/PizzaShop$PizzaServiceTest_WBT.ic" NAME="PizzaServiceTest_WBT Coverage Results" MODIFIED="1713261388888" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>pizzashop.service.*</FILTER>
+    </SUITE>
+  </component>
+</project>
