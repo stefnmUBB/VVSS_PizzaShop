@@ -3,6 +3,7 @@ package pizzashop.service;
 import pizzashop.model.Order;
 import pizzashop.model.Payment;
 import pizzashop.model.PaymentType;
+import pizzashop.repository.IPaymentRepository;
 import pizzashop.repository.MenuRepository;
 import pizzashop.repository.PaymentRepository;
 
@@ -10,9 +11,9 @@ import java.util.List;
 
 public class PizzaService {
     private final MenuRepository menuRepo;
-    private final PaymentRepository payRepo;
+    private final IPaymentRepository payRepo;
 
-    public PizzaService(MenuRepository menuRepo, PaymentRepository payRepo){
+    public PizzaService(MenuRepository menuRepo, IPaymentRepository payRepo){
         this.menuRepo=menuRepo;
         this.payRepo=payRepo;
     }
@@ -27,6 +28,14 @@ public class PizzaService {
         if (amount <= 0)
             throw new IllegalArgumentException();
         Payment payment= new Payment(table, type, amount);
+        payRepo.add(payment);
+    }
+
+    public void addPayment(Payment payment){
+        if(payment.getTableNumber() < 1 || payment.getTableNumber() > 8)
+            throw new IllegalArgumentException();
+        if (payment.getAmount() <= 0)
+            throw new IllegalArgumentException();
         payRepo.add(payment);
     }
 

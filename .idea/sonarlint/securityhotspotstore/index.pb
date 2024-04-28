@@ -43,3 +43,5 @@ N
 src/main/java/module-info.java,1\c\1c89a5491fbfda3fb050196d6a239f20200296e7
 ^
 .src/test/java/mock_tests/PizzaServiceTest.java,a\3\a388af5e2c8010fe0e3d3fd85441ac585c63a847
+A
+test_payments.txt,2\8\28c90f951442050a3a845f686f43849631222da9

@@ -1,0 +1,31 @@
+
+{
+java:S2293;"YReplace the type specification in this constructor call with the diamond operator ("<>").(ˆ›Ûñşÿÿÿÿ8›½äŸò1
+{
+java:S2293r"YReplace the type specification in this constructor call with the diamond operator ("<>").(­ ¥ìşÿÿÿÿ8œ½äŸò1
+{
+java:S2293t"YReplace the type specification in this constructor call with the diamond operator ("<>").(ï±ªáûÿÿÿÿ8œ½äŸò1
+v
+java:S2293v"YReplace the type specification in this constructor call with the diamond operator ("<>").(ğ…œî8½äŸò1
+t
+java:S1450<"WRemove the "menuData" field and declare it as a local variable in the relevant methods.(µ©Û„8“¾äŸò1
+S
+java:S26964"6Make the enclosing method "static" or remove this set.(ûĞ¸—8£¾äŸò1
+R
+java:S22094"5Change this instance-reference to a static reference.(ûĞ¸—8¨¾äŸò1
+X	java:S125<"<This block of commented-out lines of code should be removed.(µ©Û„8´¾äŸò1
+]	java:S125@"<This block of commented-out lines of code should be removed.(ü´ÈÜùÿÿÿÿ8º¾äŸò1
+o
+java:S6204R"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(ª™¨¹8Ç¾äŸò1
+N
+java:S1602Y",Remove useless curly braces around statement(ÇË®ûùÿÿÿÿ8Ñ¾äŸò1
+o
+java:S6204a"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(ª™¨¹8Õ¾äŸò1
+G	java:S106d"+Replace this use of System.out by a logger.(ú•€Ë8à¾äŸò1
+G	java:S106e"+Replace this use of System.out by a logger.(ÑºŠ‰8â¾äŸò1
+G	java:S106f"+Replace this use of System.out by a logger.(¢ùù8å¾äŸò1
+G	java:S106g"+Replace this use of System.out by a logger.(ú•€Ë8è¾äŸò1
+W
+java:S2209i"5Change this instance-reference to a static reference.(…î˜±ÿÿÿÿÿ8î¾äŸò1
+O
+java:S1602‚",Remove useless curly braces around statement(¸¯¥–úÿÿÿÿ8ü¾äŸò1

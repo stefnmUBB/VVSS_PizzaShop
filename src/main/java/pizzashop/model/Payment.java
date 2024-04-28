@@ -1,6 +1,8 @@
 package pizzashop.model;
 
 
+import java.util.Objects;
+
 public class Payment {
     private int tableNumber;
     private PaymentType type;
@@ -38,5 +40,13 @@ public class Payment {
     @Override
     public String toString() {
         return tableNumber + ","+type +"," + amount;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Payment payment = (Payment) o;
+        return tableNumber == payment.tableNumber && Double.compare(payment.amount, amount) == 0 && type == payment.type;
     }
 }
