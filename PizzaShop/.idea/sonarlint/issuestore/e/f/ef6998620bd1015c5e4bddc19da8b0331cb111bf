@@ -1,0 +1,7 @@
+
+i
+java:S2095A"LUse try-with-resources or close this "BufferedWriter" in a "finally" clause.(ω»ύ8βΟιμ1
+t
+java:S2737"WAdd logic to this catch clause or eliminate it and rethrow the exception automatically.(φ™ϋ8βΟιμ1
+X	java:S125<"<This block of commented-out lines of code should be removed.(Θϊ’’8βΟιμ1
+L	java:S106C"+Replace this use of System.out by a logger.(Ρ£±Τϊÿÿÿÿ8 βΟιμ1

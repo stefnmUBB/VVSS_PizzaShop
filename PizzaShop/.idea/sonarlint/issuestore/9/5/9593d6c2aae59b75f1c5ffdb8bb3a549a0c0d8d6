@@ -1,0 +1,27 @@
+
+t
+java:S2293;"YReplace the type specification in this constructor call with the diamond operator ("<>").(ˆ›Ûñþÿÿÿÿ
+t
+java:S2293r"YReplace the type specification in this constructor call with the diamond operator ("<>").(­ ¥ìþÿÿÿÿ
+t
+java:S2293t"YReplace the type specification in this constructor call with the diamond operator ("<>").(ï±ªáûÿÿÿÿ
+o
+java:S2293v"YReplace the type specification in this constructor call with the diamond operator ("<>").(ð…œî
+m
+java:S1450<"WRemove the "menuData" field and declare it as a local variable in the relevant methods.(µ©Û„
+L
+java:S26964"6Make the enclosing method "static" or remove this set.(ûÐ¸—
+K
+java:S22094"5Change this instance-reference to a static reference.(ûÐ¸—
+Q	java:S125<"<This block of commented-out lines of code should be removed.(µ©Û„
+V	java:S125@"<This block of commented-out lines of code should be removed.(ü´ÈÜùÿÿÿÿ
+G
+java:S1602Y",Remove useless curly braces around statement(ÇË®ûùÿÿÿÿ
+@	java:S106d"+Replace this use of System.out by a logger.(ú•€Ë
+@	java:S106e"+Replace this use of System.out by a logger.(ÑºŠ‰
+@	java:S106f"+Replace this use of System.out by a logger.(¢ùù
+@	java:S106g"+Replace this use of System.out by a logger.(ú•€Ë
+P
+java:S2209i"5Change this instance-reference to a static reference.(…î˜±ÿÿÿÿÿ
+H
+java:S1602‚",Remove useless curly braces around statement(¸¯¥–úÿÿÿÿ

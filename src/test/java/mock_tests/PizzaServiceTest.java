@@ -14,7 +14,6 @@ import pizzashop.service.PizzaService;
 import pizzashop.utils.ListUtils;
 
 import java.util.Arrays;
-import java.util.List;
 
 import static org.mockito.Mockito.never;
 import static org.mockito.Mockito.times;
