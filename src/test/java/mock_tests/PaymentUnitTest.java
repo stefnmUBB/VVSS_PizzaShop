@@ -7,7 +7,7 @@ import org.junit.jupiter.api.Test;
 import pizzashop.model.Payment;
 import pizzashop.model.PaymentType;
 
-public class PaymentTest {
+public class PaymentUnitTest {
     private Payment payment;
 
     @BeforeEach

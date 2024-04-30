@@ -18,7 +18,7 @@ import java.util.Arrays;
 import static org.mockito.Mockito.never;
 import static org.mockito.Mockito.times;
 
-public class PizzaServiceTest {
+public class PizzaServiceUnitTest {
 
     @Mock
     private IPaymentRepository paymentRepository;
@@ -46,8 +46,8 @@ public class PizzaServiceTest {
         Payment p2 = new Payment(7, PaymentType.CASH, 42.0);
         Mockito.when(paymentRepository.getAll()).thenReturn(Arrays.asList(p1));
         Mockito.doNothing().when(paymentRepository).add(p2);
-        // pizzaService.addPayment(p2.getTableNumber(),p2.getType(),p2.getAmount());
-        pizzaService.addPayment(p2);
+        pizzaService.addPayment(p2.getTableNumber(), p2.getType(), p2.getAmount());
+        //pizzaService.addPayment(p2);
         Mockito.verify(paymentRepository, times(1)).add(p2);
         Mockito.verify(paymentRepository, never()).getAll();
 

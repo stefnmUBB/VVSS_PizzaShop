@@ -1,6 +1,5 @@
 package mock_tests;
 
-import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
@@ -18,22 +17,22 @@ import java.io.IOException;
 import java.util.List;
 
 public class EntityRepoServiceIntegrationTest {
-    private PizzaService pizzaService;
     static String filename = "test_payments_integration.txt";
+    private PizzaService pizzaService;
     private Payment p1;
     private Payment p2;
 
     @BeforeEach
-    void setUp() throws IOException {
-        p1 = new Payment(1,PaymentType.CARD,12);
-        p2 = new Payment(2,PaymentType.CASH,22.4);
-        List<Payment> payments = ListUtils.of(p1,p2);
+    void setUp() {
+        p1 = new Payment(1, PaymentType.CARD, 12);
+        p2 = new Payment(2, PaymentType.CASH, 22.4);
+        List<Payment> payments = ListUtils.of(p1, p2);
 
         File file = new File(filename);
         BufferedWriter bw;
         try {
             bw = new BufferedWriter(new FileWriter(file));
-            for (Payment p:payments) {
+            for (Payment p : payments) {
                 System.out.println(p.toString());
                 bw.write(p.toString());
                 bw.newLine();
@@ -51,9 +50,6 @@ public class EntityRepoServiceIntegrationTest {
         }
     }
 
-    @AfterEach
-    void tearDown() {
-    }
     @Test
     void test_getAll() {
         Assertions.assertEquals(ListUtils.of(p1, p2), pizzaService.getPayments());
@@ -61,8 +57,8 @@ public class EntityRepoServiceIntegrationTest {
 
     @Test
     void test_add() {
-        Payment payment = new Payment(1,PaymentType.CARD,10.0);
-        pizzaService.addPayment(payment);
+        Payment payment = new Payment(1, PaymentType.CARD, 10.0);
+        pizzaService.addPayment(payment.getTableNumber(), payment.getType(), payment.getAmount());
         Assertions.assertEquals(ListUtils.of(p1, p2, payment), pizzaService.getPayments());
     }
 }

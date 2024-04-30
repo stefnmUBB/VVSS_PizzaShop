@@ -14,7 +14,7 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.util.List;
 
-public class PaymentRepositoryTest {
+public class PaymentRepositoryUnitTest {
     private PaymentRepository paymentRepository;
     static String filename = "test_payments.txt";
 
